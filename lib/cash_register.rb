@@ -18,7 +18,11 @@ class CashRegister
       @items << title
     end 
     @total += price*quantity
+<<<<<<< HEAD
     @last_transaction_amount = price*quantity
+=======
+    @last_transaction_amount = @total
+>>>>>>> 3d258965575f807080ba3686f08aa896e99290a8
     @total
   end  
   
